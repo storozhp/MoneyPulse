@@ -16,6 +16,7 @@ def register_user(username, user_id, main_currency: str):
         "user_id": user_id,
         "main_currency": main_currency,
         "currency_list": {
+            "UAH": False,
             "USD": False,
             "EUR": False
         }
